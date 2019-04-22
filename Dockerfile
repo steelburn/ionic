@@ -16,7 +16,7 @@ RUN apt-get update &&  \
     rm "node-v$NODE_VERSION-linux-x64.tar.gz" && \
     npm install -g npm@"$NPM_VERSION" && \
     npm install -g cordova@"$CORDOVA_VERSION" ionic@"$IONIC_VERSION" && \
-    npm i -D -E @angular/cli && \
+    npm install -g @angular/cli && \
     npm cache clear --force && \
     gem install sass && \
     git config --global user.email "you@example.com" && \
